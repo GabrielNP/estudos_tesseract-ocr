@@ -57,11 +57,11 @@ Executar arquivo `install_dependencies_and_libs.sh` na pasta batches
 5) Na pasta tesstrain/tesseract/tessdata salvar os arquivos `.traineddata` do idioma desejado.
 
     ```
-    // Idioma desejado
+    // Parecem ser obrigatórios para o bom funcionamento
     wget https://github.com/tesseract-ocr/tessdata/raw/master/eng.traineddata
     wget https://github.com/tesseract-ocr/tessdata/raw/master/osd.traineddata
 
-    // Parecem ser obrigatórios para o bom funcionamento
+    // Idioma desejado
     wget https://github.com/tesseract-ocr/tessdata_best/raw/master/por.traineddata
     ```
 
