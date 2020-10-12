@@ -136,6 +136,17 @@ Executar arquivo `install_dependencies_and_libs.sh` na pasta batches
 
     Ao final da execução você teá o par de arquivos ground-truth e imagem.
 
+    2.4. É importante que os nomes dos arquivos gerados não contenham mais que 3 pontos (.). Portanto, é preciso arrumar seus nomes com `rename.sh` .
+
+    ```
+    // Em batches garanta que seja executável
+    chmod a+x rename.sh
+
+    ./rename.sh
+    ```
+
+    Este comando vai acessar a pasta gerada por-ground-truth em data e vai passar cada arquivo tif encontrado como parâmetro do código python rename.py. Dessa forma o cada arquivo .tif será renomeado para um noem mais curto sem pontos excessivos.
+
 3) Executar:
 
     ```
