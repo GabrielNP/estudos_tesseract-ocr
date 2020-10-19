@@ -6,7 +6,7 @@ for f in *.gt.txt;
 			--outputbase $f \
 			--find_fonts  \
 			--fonts_dir ../../../fonts \
-			--font Arial \
+			--font Courier \
 			--render_per_font false \
 			--min_coverage .8;
 	done

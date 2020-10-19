@@ -26,6 +26,7 @@ Executar arquivo `install_dependencies_and_libs.sh` na pasta batches
     source .venv/bin/activate
     pip install -r requirements.txt
     deactivate
+    make leptonica tesseract
     mv tesseract-* tesseract
     cd ..
     ```
@@ -48,10 +49,12 @@ Executar arquivo `install_dependencies_and_libs.sh` na pasta batches
     ./configure
     make
     sudo make install
+    make ScrollView.jar
+    echo "export SCROLLVIEW_PATH='$PWD/java'" >> ~/.zshrc
+    source ~/.zshrc
     sudo ldconfig
     sudo make training
     sudo make training-install
-    make leptonica tesseract
     ```
 
 5) Na pasta tesstrain/tesseract/tessdata salvar os arquivos `.traineddata` do idioma desejado.
