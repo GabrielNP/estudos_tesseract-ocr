@@ -12,4 +12,6 @@ apt-get install libtesseract-dev -y
 apt-get install automake ca-certificates g++ git libtool libleptonica-dev make pkg-config -y
 apt-get install --no-install-recommends asciidoc docbook-xsl xsltproc -y
 apt-get install libtool -y
+apt-get install libarchive-dev -y
+apt-get install libcurl4-openssl-dev -y
 make install-jars
