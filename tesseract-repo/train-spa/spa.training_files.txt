@@ -1,0 +1,10 @@
+train-spa/spa.Changa_Light.exp0.lstmf
+train-spa/spa.Kontrapunkt_Light.exp0.lstmf
+train-spa/spa.Lucida_Console_Semi-Condensed.exp0.lstmf
+train-spa/spa.Lucida_Sans_Unicode_Regular.exp0.lstmf
+train-spa/spa.Merchant_Copy_Regular.exp0.lstmf
+train-spa/spa.Monaco_Regular.exp0.lstmf
+train-spa/spa.OCR-A_Regular.exp0.lstmf
+train-spa/spa.Roboto_Condensed.exp0.lstmf
+train-spa/spa.Ubuntu_Light.exp0.lstmf
+train-spa/spa.Yanone_Kaffeesatz_Regular.exp0.lstmf

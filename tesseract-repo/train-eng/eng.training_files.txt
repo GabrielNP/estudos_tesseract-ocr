@@ -1,0 +1,3 @@
+train-eng/eng.PT_Mono_Regular.exp0.lstmf
+train-eng/eng.Source_Code_Pro_Extralight.exp0.lstmf
+train-eng/eng.Source_Code_Pro_Regular.exp0.lstmf
