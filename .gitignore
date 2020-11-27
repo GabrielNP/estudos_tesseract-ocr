@@ -134,5 +134,6 @@ dmypy.json
 *.lstmf
 *.tif
 *.gt.txt
+*.lstm
 /tesstrain-repo/tesstrain/data
 /tesstrain-repo/tesstrain/tesseract
