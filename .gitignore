@@ -127,3 +127,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+# Training files
+*.box
+*.lstmf
+*.tif
+*.gt.txt
+/tesstrain-repo/tesstrain/data
+/tesstrain-repo/tesstrain/tesseract

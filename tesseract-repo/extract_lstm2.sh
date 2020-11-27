@@ -1,1 +1,0 @@
-combine_tessdata -e tesseract/tessdata/por.traineddata por2.lstm
