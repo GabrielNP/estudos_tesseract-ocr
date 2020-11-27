@@ -137,3 +137,5 @@ dmypy.json
 *.lstm
 /tesstrain-repo/tesstrain/data
 /tesstrain-repo/tesstrain/tesseract
+/tesseract-repo/tesseract
+/tesseract-repo/langdata_lstm
